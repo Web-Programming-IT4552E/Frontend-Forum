@@ -1,0 +1,116 @@
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+svg {
+  vertical-align: initial !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  color: initial;
+}
+
+.ant-tree-indent-unit {
+  display: none !important;
+}
+
+.ant-tree-treenode {
+  width: 100% !important;
+  padding: 5px 0 !important;
+}
+
+.ant-btn {
+  border-radius: 5px !important;
+}
+
+.ant-btn-primary {
+  border-color: #0375e2;
+  background: #0375e2;
+}
+
+.ant-tree-title {
+  font-size: 16px;
+}
+
+.ant-tree-list-holder-inner:first-child .ant-tree-title {
+  font-weight: 500;
+}
+
+.ant-list-item {
+  display: initial !important;
+}
+
+.ant-avatar {
+  width: 44px;
+  height: 44px;
+}
+
+.ant-list-item-meta-title {
+  margin-bottom: inherit !important;
+}
+
+.ant-list-item-meta {
+  margin-bottom: 12px;
+}
+
+.ant-card {
+  border-radius: 5px;
+}
+
+.ant-list-item-action {
+  text-align: right;
+}
+
+.new-post-editor {
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  padding: 0 10px;
+  min-height: 300px;
+  cursor: text;
+}
+
+.new-post-wrapper {
+  margin-bottom: 10px;
+}
+
+.new-post-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
