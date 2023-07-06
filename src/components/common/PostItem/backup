@@ -1,0 +1,26 @@
+				{/* {!isAuth ? (
+					<div className={classes["num-cmt"]}>32 comments</div>
+				) : (
+					<Space
+						size={[16, 16]}
+						direction="horizontal"
+						className="justify-end w-full"
+					>
+						<Button type="primary">Accept</Button>
+						<Button type="primary" ghost>
+							Decline
+						</Button>
+					</Space>
+				)} */}
+
+        				<RenderIf isTrue={true}>
+					<ThreeDots
+						itemMenu={[
+							{
+								key: "1",
+								label: <a className="whitespace-nowrap">Remove Post</a>,
+							},
+						]}
+						handler={removePostHandler}
+					/>
+				</RenderIf>

@@ -1,0 +1,38 @@
+.create-new-post {
+  .placeholder {
+    color: grey;
+    font-size: 16px;
+    background-color: #fafafa;
+    padding: 7px 12px 8px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e4e6e9;
+    }
+  }
+}
+
+.upload {
+  width: 100%;
+  border: 1px grey solid;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.filename {
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
