@@ -1,3 +1,3 @@
-# candleinthewind-customer-forum-frontend
+# uray-forum
 
-Candle In The Wind web customer forum
+Uray Wind web customer forum
